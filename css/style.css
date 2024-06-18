@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--color-gris: #777;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--pale-grey:#f2f2f2;
+}
+body{
+	
+}
+
+header{
+	background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+p{
+	font-family: "Catamaran", sans-serif;
+}
+
+#hero-slides h1{
+	font-size: 85px;
+	color: var(--pale-grey);
+}
+
+#hero-slides h3{
+	font-size: 25px;
+	color: var(--pale-grey);
+	padding-bottom: 3%;
+}
+
+.btn-light{
+	border-radius: 20px;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+.section{
+	padding: 5% 0%;
+}
+
+#intro h3,
+#services h3{
+	font-size: 20px;
+	color: var(--color-negro);
+}
+
+#cta{
+	background-image: url( "../img/home-grid-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+
+#cta h2{
+	font-size: 60px;
+	color: var(--pale-grey);
+}
+
+#cta p{
+	color: var(--pale-grey);
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
